@@ -1,0 +1,130 @@
+Getting 7 tiles
+Creating the license file
+Getting the TYP file
+/home/lambertus/garmin/utils/mkgmap-style-sheets/typ/Openfietsmap lite/20011.typ to ./20011.typ
+Building gmapsupp
+Time started: Mon Jun 25 18:08:04 CEST 2018
+Number of MapFailedExceptions: 0
+Number of ExitExceptions: 0
+Time finished: Mon Jun 25 18:08:16 CEST 2018
+Total time taken: 12437ms
+Zipping gmapsupp
+Zipping the tiles (linux)
+Building NSIS installer
+MakeNSIS v2.50-1 - Copyright 1995-2015 Contributors
+See the file COPYING for license details.
+Credits can be found in the Users Manual.
+
+Processing plugin dlls: "/usr/share/nsis/Plugins/*.dll"
+ - AdvSplash::show
+ - Banner::destroy
+ - Banner::getWindow
+ - Banner::show
+ - BgImage::AddImage
+ - BgImage::AddText
+ - BgImage::Clear
+ - BgImage::Destroy
+ - BgImage::Redraw
+ - BgImage::SetBg
+ - BgImage::SetReturn
+ - BgImage::Sound
+ - Dialer::AttemptConnect
+ - Dialer::AutodialHangup
+ - Dialer::AutodialOnline
+ - Dialer::AutodialUnattended
+ - Dialer::GetConnectedState
+ - InstallOptions::dialog
+ - InstallOptions::initDialog
+ - InstallOptions::show
+ - LangDLL::LangDialog
+ - Math::Script
+ - NSISdl::download
+ - NSISdl::download_quiet
+ - Splash::show
+ - StartMenu::Init
+ - StartMenu::Select
+ - StartMenu::Show
+ - System::Alloc
+ - System::Call
+ - System::Copy
+ - System::Free
+ - System::Get
+ - System::Int64Op
+ - System::Store
+ - TypeLib::GetLibVersion
+ - TypeLib::Register
+ - TypeLib::UnRegister
+ - UserInfo::GetAccountType
+ - UserInfo::GetName
+ - UserInfo::GetOriginalAccountType
+ - VPatch::GetFileCRC32
+ - VPatch::GetFileMD5
+ - VPatch::vpatchfile
+ - nsDialogs::Create
+ - nsDialogs::CreateControl
+ - nsDialogs::CreateItem
+ - nsDialogs::CreateTimer
+ - nsDialogs::GetUserData
+ - nsDialogs::KillTimer
+ - nsDialogs::OnBack
+ - nsDialogs::OnChange
+ - nsDialogs::OnClick
+ - nsDialogs::OnNotify
+ - nsDialogs::SelectFileDialog
+ - nsDialogs::SelectFolderDialog
+ - nsDialogs::SetRTL
+ - nsDialogs::SetUserData
+ - nsDialogs::Show
+ - nsExec::Exec
+ - nsExec::ExecToLog
+ - nsExec::ExecToStack
+
+warning: SetCompressor ignored due to previous call with the /FINAL switch (63440000.nsi:10)
+
+Processed 1 file, 1 command line command, writing output:
+
+Output: "Openfietsmap Lite.exe"
+Install: 6 pages (384 bytes), 1 section (1048 bytes), 477 instructions (13356 bytes), 453 strings (14197 bytes), 5 language tables (1610 bytes).
+Uninstall: 2 pages (128 bytes),
+1 section (1048 bytes), 62 instructions (1736 bytes), 210 strings (4841 bytes), 5 language tables (990 bytes).
+Datablock optimizer saved 34645 bytes (~0.0%).
+
+Using bzip2 compression.
+
+EXE header size:               86528 / 73728 bytes
+Install code:                   8922 / 30971 bytes
+Install data:               36712026 / 49973208 bytes
+Uninstall code+data:           16577 / 20608 bytes
+CRC (0x15B54EE4):                  4 / 4 bytes
+
+Total size:                 36824057 / 50098519 bytes (73.5%)
+
+1 warning:
+  SetCompressor ignored due to previous call with the /FINAL switch (63440000.nsi:10)
+Building Basecamp/RoadTrip installer
+JaVaWa MapConverter CLI version 0.6
+Source folder: /maps/0/garmin/openfietsmap_lite/07-06-2018/0ac67caaf83887bdb4a6484e20f26f3a/
+Destination folder: /maps/0/garmin/openfietsmap_lite/07-06-2018/0ac67caaf83887bdb4a6484e20f26f3a/
+Basemap: 63440000.img
+Openfietsmap Lite
+Family ID: 20011
+Product ID: 1
+Version: 1
+
+Copying 63440000.tdb
+Copying 63440000.mdx
+Copying 20011.typ
+Extracting 63440000_mdr.img
+Extracting 63440000.img
+Extracting 63440941.img
+Extracting 63440942.img
+Extracting 63440943.img
+Extracting 63440944.img
+Extracting 63440947.img
+Extracting 63440948.img
+Extracting 63440949.img
+Creating Info.xml
+Conversion complete.
+Zipping Basecamp/RoadTrip installer
+Miscellaneous stuff
+Linking map storage to webdir: /maps/0/garmin/openfietsmap_lite/07-06-2018/0ac67caaf83887bdb4a6484e20f26f3a -> /var/www/garmin/openfietsmap_lite/07-06-2018/0ac67caaf83887bdb4a6484e20f26f3a

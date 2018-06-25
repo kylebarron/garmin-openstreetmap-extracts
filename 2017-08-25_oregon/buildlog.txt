@@ -1,0 +1,71 @@
+Getting 12 tiles
+Creating the license file
+Getting the TYP file
+/dCachePool1/data/garmin_utils/mkgmap-style-sheets/typ/Openfietsmap lite/20011.typ to ./20011.typ
+Building gmapsupp
+Time started: Fri Aug 25 20:19:22 CEST 2017
+Number of MapFailedExceptions: 0
+Number of ExitExceptions: 0
+Time finished: Fri Aug 25 20:19:31 CEST 2017
+Total time taken: 8794ms
+Zipping gmapsupp
+Zipping the tiles (linux)
+Building NSIS installer
+MakeNSIS v07-Feb-2017.cvs - Copyright 1999-2016 Contributors
+See the file COPYING for license details.
+Credits can be found in the Users Manual.
+
+Processing script file: "63440000.nsi" (UTF8)
+warning: SetCompressor ignored due to previous call with the /FINAL switch (63440000.nsi:10)
+
+Processed 1 file, 1 command line command, writing output (x86-ansi):
+
+Output: "Openfietsmap Lite.exe"
+Install: 5 pages (320 bytes), 1 section (4120 bytes), 442 instructions (12376 bytes), 454 strings (14301 bytes), 5 language tables (1610 bytes).
+Uninstall: 1 page (128 bytes), 1 section (4120 bytes), 67 instructions (1876 bytes), 216 strings (5067 bytes), 5 language tables (990 bytes).
+Datablock optimizer saved 4510 bytes (~0.0%).
+
+Using bzip2 compression.
+
+EXE header size:               49152 / 36352 bytes
+Install code:                   9015 / 30095 bytes
+Install data:               55977488 / 75910307 bytes
+Uninstall code+data:           16005 / 20015 bytes
+CRC (0x2B5EA097):                  4 / 4 bytes
+
+Total size:                 56051664 / 75996773 bytes (73.7%)
+
+1 warning:
+  SetCompressor ignored due to previous call with the /FINAL switch (63440000.nsi:10)
+Building Basecamp/RoadTrip installer
+JaVaWa MapConverter CLI version 0.6
+Source folder: /dCachePool1/data/garmin_maps/openfietsmap_lite/06-08-2017/f79d9c9f17356070f8a9c2a185cbd63b/
+Destination folder: /dCachePool1/data/garmin_maps/openfietsmap_lite/06-08-2017/f79d9c9f17356070f8a9c2a185cbd63b/
+Basemap: 63440000.img
+Openfietsmap Lite
+Family ID: 20011
+Product ID: 1
+Version: 1
+
+Copying 63440000.tdb
+Copying 63440000.mdx
+Copying 20011.typ
+Extracting 63440000_mdr.img
+Extracting 63440000.img
+Extracting 63440116.img
+Extracting 63440118.img
+Extracting 63440119.img
+Extracting 63440120.img
+Extracting 63440121.img
+Extracting 63440122.img
+Extracting 63440123.img
+Extracting 63440124.img
+Extracting 63440125.img
+Extracting 63440126.img
+Extracting 63440127.img
+Extracting 63440129.img
+Creating Info.xml
+Conversion complete.
+Zipping Basecamp/RoadTrip installer
+Miscellaneous stuff
+Linking map storage to webdir: /dCachePool1/data/garmin_maps/openfietsmap_lite/06-08-2017/f79d9c9f17356070f8a9c2a185cbd63b -> /dCachePool2/data/garmin_web/garmin/openfietsmap_lite/06-08-2017/f79d9c9f17356070f8a9c2a185cbd63b
